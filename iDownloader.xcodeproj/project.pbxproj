@@ -53,7 +53,6 @@
 		8E55A93D14BDF2B700409C2C /* Knob Upload.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8E55A91614BDF2B700409C2C /* Knob Upload.icns */; };
 		8E55A93E14BDF2B700409C2C /* Knob Valid Blue.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8E55A91714BDF2B700409C2C /* Knob Valid Blue.icns */; };
 		8E55A93F14BDF2B700409C2C /* Knob Valid Green.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8E55A91814BDF2B700409C2C /* Knob Valid Green.icns */; };
-		8E55A94214BDF82A00409C2C /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A94114BDF82A00409C2C /* Download.m */; };
 		8E55A94614BDFEA500409C2C /* DownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A94514BDFEA500409C2C /* DownloadItem.m */; };
 		8E55A94914BE009900409C2C /* DownloadDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E55A94814BE009900409C2C /* DownloadDelegate.m */; };
 /* End PBXBuildFile section */
@@ -112,8 +111,6 @@
 		8E55A91614BDF2B700409C2C /* Knob Upload.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Knob Upload.icns"; path = "Ressources/knobs/ICNS/Knob Upload.icns"; sourceTree = "<group>"; };
 		8E55A91714BDF2B700409C2C /* Knob Valid Blue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Knob Valid Blue.icns"; path = "Ressources/knobs/ICNS/Knob Valid Blue.icns"; sourceTree = "<group>"; };
 		8E55A91814BDF2B700409C2C /* Knob Valid Green.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Knob Valid Green.icns"; path = "Ressources/knobs/ICNS/Knob Valid Green.icns"; sourceTree = "<group>"; };
-		8E55A94014BDF82A00409C2C /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Download.h; path = Classes/Download.h; sourceTree = "<group>"; };
-		8E55A94114BDF82A00409C2C /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Download.m; path = Classes/Download.m; sourceTree = "<group>"; };
 		8E55A94414BDFEA500409C2C /* DownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadItem.h; path = Classes/DownloadItem.h; sourceTree = "<group>"; };
 		8E55A94514BDFEA500409C2C /* DownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadItem.m; path = Classes/DownloadItem.m; sourceTree = "<group>"; };
 		8E55A94714BE009900409C2C /* DownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadDelegate.h; path = Classes/DownloadDelegate.h; sourceTree = "<group>"; };
@@ -251,8 +248,6 @@
 		8E55A94314BDFE8300409C2C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8E55A94014BDF82A00409C2C /* Download.h */,
-				8E55A94114BDF82A00409C2C /* Download.m */,
 				8E55A94414BDFEA500409C2C /* DownloadItem.h */,
 				8E55A94514BDFEA500409C2C /* DownloadItem.m */,
 				8E55A94714BE009900409C2C /* DownloadDelegate.h */,
@@ -366,7 +361,6 @@
 				8E55A8D414BDEED100409C2C /* main.m in Sources */,
 				8E55A8DB14BDEED100409C2C /* AppDelegate.m in Sources */,
 				8E55A8E114BDEED200409C2C /* iDownloader.xcdatamodeld in Sources */,
-				8E55A94214BDF82A00409C2C /* Download.m in Sources */,
 				8E55A94614BDFEA500409C2C /* DownloadItem.m in Sources */,
 				8E55A94914BE009900409C2C /* DownloadDelegate.m in Sources */,
 			);
